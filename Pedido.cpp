@@ -51,6 +51,6 @@
             cout << arrPtrProductos[index]->str() << "\n";
             totalfinal = totalfinal + arrPtrProductos[index]->calculaTotalPagar();
         }
-        cout << to_string(cantidad) + " articulos";
+        cout << to_string(cantidad) + " articulos" + "\n";
         cout << "Total a pagar $" + to_string(totalfinal) + "\n";
     }
